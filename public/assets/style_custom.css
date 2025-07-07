@@ -1,0 +1,43 @@
+
+/* style_custom.css - あなた自身のカスタムデザインはこちらに追記してください */
+
+/* 例: ログインボックスの背景色を変更 */
+.login-box {
+    background-color: #01a7fa;
+}
+
+/* 例: ボタンの色とホバー効果 */
+button {
+    background-color: #007BFF;
+    color: white;
+}
+button:hover {
+    background-color: #0056b3;
+}
+/* 背景色のカスタマイズ（ページ全体） */
+body {
+  background-color: #f0f8ff !important;  /* 好きな色に変更可 */
+}
+
+/* ページ全体の初期マージン・パディングをリセット */
+body, html {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* ヘッダーとフッターのリセット補強 */
+header, footer {
+  margin: 0 !important;
+  padding: 10px 20px !important;
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+.center-text {
+  text-align: center;
+  font-size: 30px;
+}
+

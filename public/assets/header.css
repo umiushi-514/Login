@@ -1,0 +1,37 @@
+header {
+  background-color: #004080;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+a {
+  display: block;         /* インライン要素をブロックにすることで寄せ可能に */
+  text-align: left;       /* 左寄せ */
+  font-size: 14px;
+}
+
+a:link {
+  color: rgb(255, 255, 255);     /* 通常のリンク */
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);   /* 一度クリックされたリンク */
+}
+
+a:hover {
+  color: rgb(0, 255, 251);      /* マウスを載せたとき */
+}
+
+a:active {
+  color: orange;   /* クリック中 */
+}
+
+b{
+  font-size: 14px;
+}
