@@ -20,4 +20,4 @@
 - スクリプトが実行されない（XSS対策）
 - ログアウト後にアクセスできない
 ## 追記
-- 「header('Location: dashboard.php');」の「dashboard.php」を任意のファイル名のファイル場所に変更すると変更したファイルに飛べるようになる
+- 「header('Location: dashboard.php');」の「dashboard.php」を任意のファイル名または任意のファイルが存在するファイル場所に変更すると変更したファイルに飛べるようになる
